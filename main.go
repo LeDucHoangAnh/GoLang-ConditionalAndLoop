@@ -105,4 +105,10 @@ func main() {
 		fmt.Println(i)
 	}
 	fmt.Println("Out of Loop")
+	//while: không được hỗ trợ tuy nhiên có thể sử dụng bằng cách sử dụng for
+	j := 0
+	for j < 10 {
+		fmt.Println(j)
+		j++
+	}
 }
