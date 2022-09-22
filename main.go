@@ -48,4 +48,23 @@ func main() {
 		fmt.Println("number = 10")
 	}
 
+	//FallThrough: Giúp chạy những case đằng sau khi bắt được case cần mà không dừng chương trình ngay
+	number3 := 3
+	switch number3 {
+	case 1:
+		fmt.Println("number = 1")
+		fallthrough
+	case 2:
+		fmt.Println("number = 2")
+		fallthrough
+
+	case 3:
+		fmt.Println("number = 3")
+		fallthrough
+
+	case 4:
+		fmt.Println("number = 4")
+
+	}
+
 }
