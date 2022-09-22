@@ -9,4 +9,10 @@ func main() {
 	if number == 10 {
 		fmt.Println("number = 10")
 	}
+	//2. if condition {code} else {code}
+	if number < 10 {
+		fmt.Println("number < 10")
+	} else {
+		fmt.Println("number = 10")
+	}
 }
