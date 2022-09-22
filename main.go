@@ -67,4 +67,29 @@ func main() {
 
 	}
 
+	//Break, goto
+	number4 := 4
+	switch number4 {
+	case 1:
+		fmt.Println("number = 1")
+		fallthrough
+	case 2:
+		fmt.Println("number = 2")
+		fallthrough
+
+	case 3:
+		if number4 == 10 {
+			fmt.Println("Break")
+			break
+		}
+
+	case 4:
+		if number4 == 5 {
+			goto handleNumberEqual10
+		}
+	handleNumberEqual10:
+		fmt.Println("handle for case = 10")
+	case 5:
+		fmt.Println("number = 5")
+	}
 }
