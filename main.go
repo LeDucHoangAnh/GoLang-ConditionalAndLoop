@@ -111,4 +111,12 @@ func main() {
 		fmt.Println(j)
 		j++
 	}
+	//Infinite loop
+	// for {
+	// 	fmt.Println("infinite loop")
+	// }
+
+	for i, j := 1, 2; i < 10 && j < 10; i, j = i+1, j+1 {
+		fmt.Println(i, " ", j)
+	}
 }
