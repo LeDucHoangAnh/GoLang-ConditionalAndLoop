@@ -15,4 +15,10 @@ func main() {
 	} else {
 		fmt.Println("number = 10")
 	}
+	//3. if statement; condition { code }
+	if a := 100; a > 100 {
+		fmt.Println("a > 100")
+	} else {
+		fmt.Println("a = 100")
+	}
 }
