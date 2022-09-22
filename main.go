@@ -39,4 +39,13 @@ func main() {
 	default:
 		fmt.Println("Undefined")
 	}
+	//
+	number2 := 10
+	switch {
+	case number2 > 10:
+		fmt.Println("number > 10")
+	case number2 == 10:
+		fmt.Println("number = 10")
+	}
+
 }
