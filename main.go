@@ -92,4 +92,17 @@ func main() {
 	case 5:
 		fmt.Println("number = 5")
 	}
+	//----Loop
+	//CT: for init; condition; post
+	//break: dừng khi đến vị trí đã đặt điều kiện
+	//continue: bỏ qua giá trị được chỉ định
+	for i := 0; i < 10; i++ {
+
+		if i == 4 {
+			// break
+			continue
+		}
+		fmt.Println(i)
+	}
+	fmt.Println("Out of Loop")
 }
